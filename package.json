@@ -1,0 +1,13 @@
+{
+  "name": "mydaytripcypress",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "cypress": "^13.6.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open --e2e",
+    "cypress:run": "./node_modules/.bin/cypress run --e2e"
+  }
+}

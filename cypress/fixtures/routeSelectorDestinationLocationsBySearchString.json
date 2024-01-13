@@ -1,0 +1,30 @@
+{
+    "data": {
+        "routeSelectorDestinationLocationsBySearchString": [
+            {
+                "_id": "28a19587-dd0a-4512-80bc-ffae35aa89a2",
+                "name": "Berchtesgaden",
+                "machineName": "berchtesgaden",
+                "countryName": "Germany",
+                "timezone": "Europe/Berlin",
+                "__typename": "RouteSelectorLocation"
+            },
+            {
+                "_id": "ee84897e-2fde-4b26-982f-e07947f0f5a2",
+                "name": "Berlin",
+                "machineName": "berlin",
+                "countryName": "Germany",
+                "timezone": "Europe/Berlin",
+                "__typename": "RouteSelectorLocation"
+            },
+            {
+                "_id": "f6ae50de-8ad1-4e05-9955-56b15e5f9be5",
+                "name": "Bern",
+                "machineName": "bern",
+                "countryName": "Switzerland",
+                "timezone": "Europe/Zurich",
+                "__typename": "RouteSelectorLocation"
+            }
+        ]
+    }
+}

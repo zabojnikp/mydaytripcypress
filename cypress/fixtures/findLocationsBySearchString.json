@@ -1,0 +1,38 @@
+{
+  "data": {
+      "findLocationsBySearchString": [
+          {
+              "_id": "4cf0e7a4-8443-40c9-bbf3-bfe253a3c631",
+              "name": "Prague",
+              "machineName": "prague",
+              "countryName": "Czech Republic",
+              "timezone": "Europe/Prague",
+              "__typename": "RouteSelectorLocation"
+          },
+          {
+              "_id": "c1485c87-f5de-4101-a5fe-07900b7b6e22",
+              "name": "Prague Airport",
+              "machineName": "prague-airport",
+              "countryName": "Czech Republic",
+              "timezone": "Europe/Prague",
+              "__typename": "RouteSelectorLocation"
+          },
+          {
+              "_id": "4b8ac13f-ba54-4202-8ad0-bd402d1589f7",
+              "name": "Poprad",
+              "machineName": "poprad",
+              "countryName": "Slovakia",
+              "timezone": "Europe/Bratislava",
+              "__typename": "RouteSelectorLocation"
+          },
+          {
+            "_id": "ee84897e-2fde-4b26-982f-e07947f0f5a2",
+            "name": "Berlin",
+            "machineName": "berlin",
+            "countryName": "Germany",
+            "timezone": "Europe/Berlin",
+            "__typename": "RouteSelectorLocation"
+        }
+      ]
+  }
+}
