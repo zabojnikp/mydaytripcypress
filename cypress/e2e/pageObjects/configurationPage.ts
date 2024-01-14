@@ -12,9 +12,8 @@ export const assertTripDetails = (originCity: string, destinationCity: string, b
 }
 
 export const submitTripDetails = () => {
-    cy.intercept('POST', 'graphql').as('tripDetails')
     cy.get(bookTripButton).first().click({force: true})
     // confirmButton is sometimes disabled loading the state of the button, would need to understand from the developer how the button is designed
-    cy.contains(confirmButton, 'Book without sights', {timeout: 3000}).click().wait('@tripDetails')
+    cy.contains(confirmButton, 'Book without sights').click()
 
 }

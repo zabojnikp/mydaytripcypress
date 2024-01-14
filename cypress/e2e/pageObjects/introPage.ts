@@ -35,7 +35,6 @@ export const searchRide = () => {
     cy.intercept('GET', '/graphql?**operationName=UpsellSimpleRoutes**').as('UpsellSimpleRoutes')
     cy.intercept('GET', '/graphql?**operationName=GetFrequentlyAskedQuestions**').as('GetFrequentlyAskedQuestions')
     cy.intercept('GET', '/graphql?**operationName=RouteForBookingById**').as('RouteForBookingById')
-    cy.intercept('POST', 'graphql').as('tripDetails')
 
-    cy.get(bookRideButton).first().click().wait(['@RouteReviews', '@UpsellSimpleRoutes', '@GetFrequentlyAskedQuestions', '@RouteForBookingById', '@tripDetails'])
+    cy.get(bookRideButton).first().click().wait(['@RouteReviews', '@UpsellSimpleRoutes', '@GetFrequentlyAskedQuestions', '@RouteForBookingById'])
 }

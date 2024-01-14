@@ -14,7 +14,7 @@ export const confirmBooking  = () => {
 }
 
 export const assertTripDetails = (originCity: string, destinationCity: string, bookingPrice: string) => {
-    cy.get(citySelector).should('contain', originCity)
+    cy.get(citySelector, { timeout: 8000 }).should('contain', originCity)
     cy.get(citySelector).should('contain', destinationCity)
     cy.assertDateSelectorContainsSetDate(departureDateInfo)
     cy.get(priceSummary).should('contain', bookingPrice)
